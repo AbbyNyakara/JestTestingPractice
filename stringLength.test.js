@@ -1,5 +1,5 @@
 const stringLength = require('./stringLength.js');
 
 test("String character counter", () => {
-  expect(stringLength("Abby")).toBe(4);
+  expect(stringLength("Abbycvxcvxcvv")).toBe(13);
 })

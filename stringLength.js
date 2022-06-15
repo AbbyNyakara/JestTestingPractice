@@ -3,7 +3,7 @@ const stringLength = (str) => {
   if (strLength < 1 || strLength > 10) {
     throw new Error ("String too long/ too short ")
   }
-  return strLength
+  return strLength;
 }
 
 module.exports = stringLength;
